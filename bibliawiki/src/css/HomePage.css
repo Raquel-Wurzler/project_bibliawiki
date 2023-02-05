@@ -4,7 +4,7 @@
 }
 
 .home-page {
-  background-image: url('../public/bibliaWikiFundoTela.png');
+  background-image: url('../../public/bibliawikiBackground.png');
   background-size: cover;
   height: 100vh;
   position: relative;
