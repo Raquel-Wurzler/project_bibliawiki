@@ -1,3 +1,5 @@
+import '../css/HomePage.css';
+
 export default function HomePage() {
   return (
 <section className="home-page">
