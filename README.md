@@ -14,10 +14,10 @@ O principal objetivo é que o bibliawiki seja uma plataforma completa, onde as p
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-git clone git@github.com:Raquel-Wurzler/project_tryunfo.git
+git clone git@github.com:Raquel-Wurzler/project_bibliawiki.git
 
 # Entre na pasta do projeto 
-cd project_tryunfo
+cd project_bibliawiki
 
 # Instale as dependências
 yarn install
