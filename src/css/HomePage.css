@@ -4,7 +4,8 @@
 }
 
 .home-page {
-  background-image: url('../../public/bibliawikiBackground.png');
+  background-image: url('../../public/bibliawikiLogo.png');
+  background-color: rgb(36, 31, 28);
   background-size: cover;
   height: 100vh;
   position: relative;
