@@ -2,7 +2,7 @@ import '../css/HomePage.css';
 
 export default function HomePage() {
   return (
-<section className="home-page">
+    <section className="home-page">
       <div className="container-btn-home-page">
         <button
           type="button"
