@@ -11,7 +11,11 @@ export default function HomePage() {
         >
           Ir Para BibliaWiki
         </button>
-        <a href="https://wa.me/5547999911719">
+        <a
+          href="https://wa.me/5547999911719"
+          className="btn-home-page"
+          target="_blank" rel="noreferrer"
+        >
         <button
           type="button"
           className="btn-home-page"
@@ -19,12 +23,18 @@ export default function HomePage() {
           Pedir Oração
         </button>
         </a>
+        <a
+          href="https://wa.me/5547999911719"
+          className="btn-home-page"
+          target="_blank" rel="noreferrer"
+        >
         <button
           type="button"
           className="btn-home-page"
         >
           Participar de um Grupo de Estudos da Bíblia
         </button>
+        </a>
       </div>
     </section>
   )
