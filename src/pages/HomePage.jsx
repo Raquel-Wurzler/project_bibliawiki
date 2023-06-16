@@ -20,7 +20,7 @@ export default function HomePage() {
           type="button"
           className="btn-home-page"
         >
-          Tirar Dúvida sobre Bíblia
+          Participar de um Grupo de Estudos da Bíblia
         </button>
       </div>
     </section>
