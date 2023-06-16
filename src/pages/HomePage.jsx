@@ -1,8 +1,9 @@
 import '../css/HomePage.css';
+// teste
 
 export default function HomePage() {
   return (
-<section className="home-page">
+    <section className="home-page">
       <div className="container-btn-home-page">
         <button
           type="button"
@@ -20,7 +21,7 @@ export default function HomePage() {
           type="button"
           className="btn-home-page"
         >
-          Tirar Dúvida sobre Bíblia
+          Participar de um Grupo de Estudos da Bíblia
         </button>
       </div>
     </section>
