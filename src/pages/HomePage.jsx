@@ -11,12 +11,14 @@ export default function HomePage() {
         >
           Ir Para BibliaWiki
         </button>
+        <a href="https://wa.me/5547999911719">
         <button
           type="button"
           className="btn-home-page"
         >
           Pedir Oração
         </button>
+        </a>
         <button
           type="button"
           className="btn-home-page"
