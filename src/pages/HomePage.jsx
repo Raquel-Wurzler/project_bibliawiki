@@ -11,36 +11,36 @@ export default function HomePage() {
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
-          <button
+          {/* <button
             type="button"
             className="btn-home-page"
-          >
+          > */}
             Ir Para BibliaWiki
-          </button>
+          {/* </button> */}
         </a>
         <a
           href="https://wa.me/5547999911719"
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
-        <button
+        {/* <button
           type="button"
           className="btn-home-page"
-        >
+        > */}
           Pedir Oração
-        </button>
+        {/* </button> */}
         </a>
         <a
           href="https://wa.me/5547999911719"
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
-        <button
+        {/* <button
           type="button"
           className="btn-home-page"
-        >
+        > */}
           Participar de um Grupo de Estudos da Bíblia
-        </button>
+        {/* </button> */}
         </a>
       </div>
     </section>
