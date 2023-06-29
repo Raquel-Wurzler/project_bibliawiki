@@ -1,5 +1,5 @@
 import '../css/HomePage.css';
-// teste
+// testee
 
 export default function HomePage() {
   return (
