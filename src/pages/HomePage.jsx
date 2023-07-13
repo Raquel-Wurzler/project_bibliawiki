@@ -5,6 +5,13 @@ export default function HomePage() {
   return (
     <section className="home-page">
       <div className="container-btn-home-page">
+        <a
+          href="http://bibliawiki.pbworks.com/w/page/147603879/BibliaWiki"
+          className="btn-home-page"
+          target="_blank" rel="noreferrer"
+        >
+            Sobre Nós
+        </a>
 
         <a
           href="http://bibliawiki.pbworks.com/w/page/147603879/BibliaWiki"
@@ -25,7 +32,7 @@ export default function HomePage() {
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
-          Participar de um Grupo de Estudos da Bíblia
+          Grupo de Estudos da Bíblia
         </a>
       </div>
     </section>
