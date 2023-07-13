@@ -1,17 +1,17 @@
+import { Link } from 'react-router-dom';
 import '../css/HomePage.css';
-// testee
 
 export default function HomePage() {
   return (
     <section className="home-page">
       <div className="container-btn-home-page">
-        <a
-          href="http://bibliawiki.pbworks.com/w/page/147603879/BibliaWiki"
+        <Link
+          to="/sobrenos"
           className="btn-home-page"
-          target="_blank" rel="noreferrer"
+          rel="noreferrer"
         >
             Sobre Nós
-        </a>
+        </Link>
 
         <a
           href="http://bibliawiki.pbworks.com/w/page/147603879/BibliaWiki"
