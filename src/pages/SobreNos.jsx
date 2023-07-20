@@ -6,21 +6,21 @@ export default function SobreNos() {
     <section>
       <div className="sobre-nos-container">
         <div>
-          <h2>Visão</h2>
-          <p>"Tornar a Bíblia mais acessível e compreensível para todos, criando uma comunidade colaborativa de conhecimento bíblico confiável e valioso, inspirando pessoas a crescerem em sua fé e relacionamento com Deus".</p>
-          <h2>Missão</h2>
-          <p>Fornecer uma plataforma online colaborativa para criar e compartilhar conhecimento bíblico confiável e acessível, de acordo com a doutrina adventista do sétimo dia, capacitando as pessoas a crescerem em sua fé e relacionamento com Deus".</p>
-          <h2>Valores</h2>
-          <p>Colaboração: acreditamos que o conhecimento é construído através da colaboração e do compartilhamento de ideias entre os membros da plataforma.
-          Precisão: estamos comprometidos em fornecer informações precisas e confiáveis sobre a Bíblia, de acordo com a doutrina adventista do sétimo dia.
-          Acessibilidade: buscamos tornar o conhecimento bíblico acessível a todas as pessoas, independentemente de seu nível de conhecimento prévio.
-          Respeito: valorizamos o respeito mútuo e a diversidade de opiniões, reconhecendo que diferentes perspectivas podem enriquecer nosso conhecimento e compreensão da Bíblia.
-          Excelência: buscamos a excelência em tudo o que fazemos, com o objetivo de oferecer uma experiência de alta qualidade aos usuários da plataforma.</p>
+          <h1 className="title-SobreNos">Visão</h1>
+          <p>Tornar a Bíblia mais acessível e compreensível para todos, criando uma comunidade colaborativa de conhecimento bíblico confiável e valioso, inspirando pessoas a crescerem em sua fé e relacionamento com Deus.</p>
+          <h1 className="title-SobreNos">Missão</h1>
+          <p>Fornecer uma plataforma online colaborativa para criar e compartilhar conhecimento bíblico confiável e acessível, de acordo com a doutrina adventista do sétimo dia, capacitando as pessoas a crescerem em sua fé e relacionamento com Deus.</p>
+          <h1 className="title-SobreNos">Valores</h1>
+          <p className="p-SobreNos"><b>Colaboração:</b> acreditamos que o conhecimento é construído através da colaboração e do compartilhamento de ideias entre os membros da plataforma.</p>
+          <p className="p-SobreNos"><b>Precisão:</b> estamos comprometidos em fornecer informações precisas e confiáveis sobre a Bíblia, de acordo com a doutrina adventista do sétimo dia.</p>
+          <p className="p-SobreNos"><b>Acessibilidade:</b> buscamos tornar o conhecimento bíblico acessível a todas as pessoas, independentemente de seu nível de conhecimento prévia</p>
+          <p className="p-SobreNos"><b>Respeito:</b> valorizamos o respeito mútuo e a diversidade de opiniões, reconhecendo que diferentes perspectivas podem enriquecer nosso conhecimento e compreensão da Bíblia.</p>
+          <p className="p-SobreNos"><b>Excelência:</b> buscamos a excelência em tudo o que fazemos, com o objetivo de oferecer uma experiência de alta qualidade aos usuários da plataforma.</p>
         </div>
-        <img src="bibliawikiLogo.png" alt="logo-bibliawiki" width="50" height="50"/>
+        <img src="bibliawikiLogo.png" alt="logo-bibliawiki" width="100" height="100"/>
         <Link
           to="/"
-          className="btn-home-page"
+          className="btn-SobreNos"
           rel="noreferrer"
         >
             Início
