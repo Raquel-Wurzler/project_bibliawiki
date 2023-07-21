@@ -1,10 +1,16 @@
 .sobre-nos-container {
-  margin: 10%;
-  /* background-image: url('../../public/bibliawikiLogo.png'); */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 75vh;
-  height: 100vh;
+  margin: 1% 10% 0 10%;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo {
+  /* opacity: 0.3; */
+  position: center center;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: auto;
 }
 
 .title-SobreNos {
