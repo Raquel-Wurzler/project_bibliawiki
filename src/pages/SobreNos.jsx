@@ -5,6 +5,7 @@ export default function SobreNos() {
   return (
     <section>
       <div className="sobre-nos-container">
+      <img src="bibliawikiLogo.png" alt="logo-bibliawiki" className="logo"/>
         <div>
           <h1 className="title-SobreNos">Visão</h1>
           <p>Tornar a Bíblia mais acessível e compreensível para todos, criando uma comunidade colaborativa de conhecimento bíblico confiável e valioso, inspirando pessoas a crescerem em sua fé e relacionamento com Deus.</p>
@@ -17,7 +18,7 @@ export default function SobreNos() {
           <p className="p-SobreNos"><b>Respeito:</b> valorizamos o respeito mútuo e a diversidade de opiniões, reconhecendo que diferentes perspectivas podem enriquecer nosso conhecimento e compreensão da Bíblia.</p>
           <p className="p-SobreNos"><b>Excelência:</b> buscamos a excelência em tudo o que fazemos, com o objetivo de oferecer uma experiência de alta qualidade aos usuários da plataforma.</p>
         </div>
-        <img src="bibliawikiLogo.png" alt="logo-bibliawiki" width="100" height="100"/>
+        
         <Link
           to="/"
           className="btn-SobreNos"
