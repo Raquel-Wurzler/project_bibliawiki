@@ -1,35 +1,38 @@
 .sobre-nos-container {
-  margin: 1% 10% 0 10%;
-  overflow: hidden;
-  position: relative;
+  display: flex;
+  padding: 2%;
+}
+
+.left {
+  align-items: center;
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(10, 10, 10, 10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 2%;
+}
+
+.right {
+  font-size: 120%;
+  margin: 2%;
+  padding: 2%;
 }
 
 .logo {
-  /* opacity: 0.3; */
-  position: center center;
-  left: 0;
-  top: 0;
-  width: 50%;
   height: auto;
+  width: 200px;
 }
 
 .title-SobreNos {
-  margin: 10px;
   color: rgb(239, 184, 16);
+  margin: 10px;
 }
 
 .p-SobreNos {
   margin: 10px 0 10px 0;
-}
-
-.container-btn-home-page {
-  bottom: 0;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2%;
-  position: fixed;
-  text-align: center;
-  width: 95%;
 }
 
 .btn-SobreNos {
@@ -49,14 +52,14 @@
   text-align: center;
   text-decoration: none;
   transition: background-color .3s;
-  width: 30%;
+  width: 40%;
 }
 
-.btn-home-page:hover {
+.btn-SobreNos:hover {
   background-color: rgb(222, 188, 84);
 }
 
-.btn-home-page:active {
+.btn-SobreNos:active {
   background-color: rgb(117, 88, 0);
   color:rgb(239, 184, 16);
 }
