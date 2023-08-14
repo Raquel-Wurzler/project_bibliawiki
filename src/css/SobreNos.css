@@ -1,10 +1,12 @@
 .sobre-nos-container {
+  background-color: rgb(239, 184, 16);
   display: flex;
   padding: 2%;
 }
 
 .left {
   align-items: center;
+  background-color: rgb(36, 31, 28);
   border: 1px solid rgb(10, 10, 10);
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(10, 10, 10, 10);
@@ -16,7 +18,7 @@
 }
 
 .right {
-  color: rgb(239, 184, 16);
+  color: rgb(36, 31, 28);
   font-size: 120%;
   margin: 2%;
   padding: 2%;
@@ -28,7 +30,7 @@
 }
 
 .title-SobreNos {
-  color: rgb(239, 184, 16);
+  color: rgb(10, 10, 10);
   margin: 10px;
 }
 
