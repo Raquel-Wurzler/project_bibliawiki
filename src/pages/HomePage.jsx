@@ -21,14 +21,14 @@ export default function HomePage() {
             Ir Para BibliaWiki
         </a>
         <a
-          href="https://wa.me/5547999911719"
+          href="https://wa.me/5547996251359"
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
           Pedir Oração
         </a>
         <a
-          href="https://wa.me/5547999911719"
+          href="https://wa.me/5547996251359"
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
