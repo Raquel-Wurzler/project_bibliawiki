@@ -67,3 +67,17 @@ body {
     margin: 30% 15% 10%;
   }
 }
+
+@media (min-width: 701px) and (max-width: 1200px) {
+  .home-page {
+    background-size: 55vh;
+    background-position: top;
+    margin-top: 20%;
+  }
+  .container-btn-home-page {
+    display: block;
+    width: 80%;
+    position: fixed;
+    margin: 30% 15% 10%;
+  }
+}

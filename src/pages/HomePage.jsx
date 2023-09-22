@@ -25,6 +25,7 @@ export default function HomePage() {
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
+          <link rel="shortcut icon" type="imagex/png" href="whatsapp.ico"></link>
           Pedir Oração
         </a>
         <a
