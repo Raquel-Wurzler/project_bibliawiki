@@ -12,7 +12,7 @@ export default function SobreNos() {
               className="btn-SobreNos"
               rel="noreferrer"
             >
-                Início
+                <i class="fa-solid fa-house"></i> Home
           </Link>
         </div>
         <div className="right">
