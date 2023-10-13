@@ -54,7 +54,25 @@ body {
   color:rgb(239, 184, 16);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 410px) {
+  .home-page {
+    background-size: 35vh;
+    background-position: top;
+    margin-top: 20%;
+  }
+  .container-btn-home-page {
+    display: block;
+    width: 70%;
+    position: fixed;
+    margin: 30% 15% 5%;
+  }
+
+  .btn-home-page {
+    font-size: 90%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 700px) {
   .home-page {
     background-size: 43vh;
     background-position: top;
