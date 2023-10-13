@@ -20,13 +20,13 @@ export default function HomePage() {
         >
             <i class="fa-solid fa-book-bible"></i> Ir Para BibliaWiki
         </a>
-        <a
-          href="https://wa.me/5547996251359"
+        <Link
+          to="/prayerpage"
           className="btn-home-page"
-          target="_blank" rel="noreferrer"
+          rel="noreferrer"
         >
-          <i class="fa-brands fa-whatsapp"></i> Pedir Oração
-        </a>
+            <i class="fa-solid fa-person-praying"></i> Pedir Oração
+        </Link>
         <a
           href="https://wa.me/5547996251359"
           className="btn-home-page"
