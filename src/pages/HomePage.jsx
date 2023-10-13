@@ -10,7 +10,7 @@ export default function HomePage() {
           className="btn-home-page"
           rel="noreferrer"
         >
-            Sobre Nós
+            <i class="fa-solid fa-users"></i> Sobre Nós
         </Link>
 
         <a
@@ -18,22 +18,21 @@ export default function HomePage() {
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
-            Ir Para BibliaWiki
+            <i class="fa-solid fa-book-bible"></i> Ir Para BibliaWiki
         </a>
         <a
           href="https://wa.me/5547996251359"
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
-          <link rel="shortcut icon" type="imagex/png" href="whatsapp.ico"></link>
-          Pedir Oração
+          <i class="fa-brands fa-whatsapp"></i> Pedir Oração
         </a>
         <a
           href="https://wa.me/5547996251359"
           className="btn-home-page"
           target="_blank" rel="noreferrer"
         >
-          Grupo de Estudos da Bíblia
+          <i class="fa-brands fa-whatsapp"></i> Grupo de Estudos da Bíblia
         </a>
       </div>
     </section>
